@@ -24,7 +24,9 @@ This is a set of API for a social network that uses a MongoDB database so that t
 ## Table of Contents
 
   * [Installation](#installation)
-
+ 
+  * [Demo](#demo)
+ 
   * [License](#license)
 
   * [Contributors](#contributors)
@@ -43,6 +45,12 @@ This is a set of API for a social network that uses a MongoDB database so that t
   - npm install mongoose
   - npm start
 * Open Insomnia to test API routes
+
+
+ # Demo:
+ Example visual
+
+ [Team profile Generator Demo video](https://youtu.be/2ncwUC635Ew)
 
 
   ## License
