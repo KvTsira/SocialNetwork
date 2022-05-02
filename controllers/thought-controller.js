@@ -34,7 +34,7 @@ const thoughtController = {
   },
 
   // get a thought by id /api/thoughts/:id
-  async getSingleThought({ params }, res) {
+  async getThoughtByID({ params }, res) {
     try {
       const dbThought = await Thought.findOne({ _id: params.id })
         .populate({ path: "reactions", select: "-__v" })
@@ -50,7 +50,7 @@ const thoughtController = {
   },
 
   // update a thought by id
-  async updateSingleThought({ params, body }, res) {
+  async updateThoughtByID({ params, body }, res) {
     try {
       const dbThought = await Thought.findOneAndUpdate(
         { _id: params.id },
@@ -68,7 +68,7 @@ const thoughtController = {
   },
 
   // delete a thought by id
-  async removeThought({ params }, res) {
+  async removeThoughtByID({ params }, res) {
     try {
       const dbThought = await Thought.findOneAndDelete({ _id: params.id });
       if (!dbThought)
