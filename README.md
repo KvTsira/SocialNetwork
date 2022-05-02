@@ -38,10 +38,10 @@ This is a set of API for a social network that uses a MongoDB database so that t
 * Download the repo files from the link below
 * You must have mongoDB installed
 * Run the following at the command line
- - npm init -y
- - npm install express
- - npm install mongoose
- - npm start
+  - npm init -y
+  - npm install express
+  - npm install mongoose
+  - npm start
 * Open Insomnia to test API routes
 
 
