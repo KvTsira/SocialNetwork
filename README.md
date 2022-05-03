@@ -50,7 +50,9 @@ This is a set of API for a social network that uses a MongoDB database so that t
  # Demo:
  Example visual
 
- [Team profile Generator Demo video](https://youtu.be/2ncwUC635Ew)
+ * [User API routes being tested in Insomnia ](https://youtu.be/47nnakd5K5k)
+ * [Thought API routes being tested in Insomnia ](https://youtu.be/DHC89SiUJto)
+ * [Bonus API routes being tested in Insomnia ](https://youtu.be/vBKM-JOTg5U)
 
 
   ## License
